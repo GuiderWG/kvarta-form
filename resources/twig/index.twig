@@ -1,0 +1,19 @@
+{% extends "Layouts/app.twig" %}
+
+{% set title = 'Quarta Form' %}
+
+{% block body %}
+  <section class="section-reg">
+    <div class="section-reg__inf">
+      <div class="container">
+        <div class="section-reg__form form-registration">
+          <h2 class="form-registration__title mb-4">Форма регистрации</h2>
+          {% include "Сomponents/Common/Forms/FormRgistration.twig" with
+            {
+              'additionalClass': 'form-default_columns',
+            } %}
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

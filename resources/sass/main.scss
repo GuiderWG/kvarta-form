@@ -1,0 +1,14 @@
+// custom Bootstrap
+@import 'variables';
+
+.section-reg {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+@import "components/common/common";
+
+@import "components/mediaQueries/mediaQueries";

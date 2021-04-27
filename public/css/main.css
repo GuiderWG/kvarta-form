@@ -1,0 +1,100 @@
+.section-reg {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.form-registration {
+  background: #fff;
+  padding: 20px 40px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.form-registration__title {
+  text-align: center;
+  margin-bottom: 60px;
+  font-weight: 600;
+}
+
+.form-default__input {
+  background: #e9ecef;
+  border-color: #e9ecef;
+  height: 50px;
+  border-radius: 4px;
+  transition: 0.3s ease-in-out;
+}
+
+.form-default__input:focus {
+  background: #fff;
+  border-color: #495057;
+  box-shadow: none;
+}
+
+.form-default__privacy {
+  margin-top: 1.5rem;
+  color: #495057;
+}
+
+.form-default__privacy input,
+.form-default__privacy label {
+  cursor: pointer;
+}
+
+.form-default__button {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 270px;
+  margin: 3rem auto 0 auto;
+}
+
+.btn-default {
+  color: #fff;
+  border: 1px solid #009966;
+  background-color: #009966;
+  transition: 0.3s ease-in-out;
+  border-radius: 4px;
+  padding: 12px 15px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.btn-default:hover {
+  background: #008a5c;
+  color: #fff;
+}
+
+.btn-default:active {
+  background: #00704b;
+  color: #fff;
+}
+
+.btn-default_back {
+  color: #868e96;
+  border: 2px solid transparent;
+  background-color: transparent;
+}
+
+.btn-default_back:hover {
+  background-color: transparent;
+  color: #343a40;
+}
+
+.btn-default_back:focus {
+  outline: 0;
+}
+
+.btn-default_back:active {
+  background-color: transparent;
+  color: #212529;
+}
+
+@media (max-width: 1199.98px) {
+  .section-reg {
+    height: auto;
+    padding: 20px 0;
+  }
+}
+

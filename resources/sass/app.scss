@@ -1,0 +1,8 @@
+// Кастомизация бутстрапа
+@import 'variables';
+
+// Выбор компонентов бутстрапа
+@import '~bootstrap/scss/bootstrap';
+
+// Фирменные стили поверх бутстрапа (переопределение)
+@import 'overrides';
